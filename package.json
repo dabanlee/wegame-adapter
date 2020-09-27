@@ -1,0 +1,30 @@
+{
+  "name": "wegame-adapter",
+  "moduleName": "wegame-adapter",
+  "version": "1.0.1",
+  "description": "Wechat mini game adapter.",
+  "main": "dist/wegame-adapter.js",
+  "module": "dist/wegame-adapter.es.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "start": "NODE_ENV=development rollup -w -c rollup.config.js",
+    "dev": "NODE_ENV=development rollup -c rollup.config.js",
+    "prod": "NODE_ENV=production rollup -c rollup.config.js",
+    "build": "rm -rf dist && npm run dev && npm run prod"
+  },
+  "repository": {
+    "url": "https://github.com/dabanlee/wegame-adapter.git",
+    "type": "git"
+  },
+  "author": "大板栗 <576839360@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "rollup": "^2.26.4",
+    "rollup-plugin-terser": "^7.0.0",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.3"
+  }
+}
