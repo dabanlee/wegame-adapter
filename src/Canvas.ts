@@ -26,9 +26,8 @@ export default function Canvas() {
         document.removeEventListener(type, listener)
     }
 
-    canvas.dispatchEvent = function(event: {
-        type: string,
-    }) {}
+    canvas.dispatchEvent = function() {}
+    canvas.setAttribute = function () {}
 
     return canvas
 }

@@ -1,7 +1,7 @@
 {
   "name": "wegame-adapter",
   "moduleName": "wegame-adapter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Wechat mini game adapter.",
   "main": "dist/wegame-adapter.js",
   "module": "dist/wegame-adapter.es.js",
